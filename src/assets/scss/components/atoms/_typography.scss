@@ -1,0 +1,51 @@
+$modularscale: (
+  base: 12pt,
+  ratio: 1.2,
+);
+
+body{
+	font-family: 'Libre Baskerville';
+	font-size: ms(0);
+	line-height: 1.5em;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Avenir';
+	font-weight: 100;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.borderbottom{
+	border-bottom: 1px solid $black;
+	padding-bottom: 2px;
+}
+h6{
+	font-size: ms(1);
+}
+h5{
+	font-size: ms(2);
+}
+h4{
+	font-size: ms(3);
+}
+h3{
+	font-size: ms(4);
+}
+h2{
+	font-size: ms(5);
+}
+h1{
+	font-size: ms(6);
+}
+
+blockquote{
+	color: $black;
+	font-style: italic;
+	font-size: ms(1);
+	border: 0px;
+}
+p{
+	margin-bottom: 2em;
+}

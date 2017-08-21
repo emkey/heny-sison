@@ -1,0 +1,12 @@
+input[type=text]{
+	background-color: $white;
+	box-shadow: none;
+	border: 1px solid $white;
+	@extend .padding-small;
+}
+textarea{
+	background-color: $white;
+	box-shadow: none;
+	border: 1px solid $white;
+	@extend .padding-small;
+}
