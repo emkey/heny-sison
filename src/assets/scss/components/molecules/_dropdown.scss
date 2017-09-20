@@ -1,0 +1,19 @@
+.dropdown{
+	background-color: #fff;
+	li{
+	}
+	li a{
+		color: $black;
+		border-color: $black;
+	}
+}
+.dropdown.menu{
+	li.is-dropdown-submenu-parent > a::after{
+
+		border-color: $black transparent transparent;
+
+	}
+	.is-active > a{
+		color: $black;
+	}
+}

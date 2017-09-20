@@ -1,0 +1,13 @@
+.title-bar{
+	background-color: $grey1;
+	color: $black;
+}
+
+.menu-icon::after{
+	background-color: $black;
+	box-shadow: 0 7px 0 $black, 0 14px 0 $black;
+}
+.menu-icon:hover::after{
+	background-color: $black;
+	box-shadow: 0 7px 0 $black, 0 14px 0 $black;
+}

@@ -54,6 +54,9 @@
 @include motion-ui-animations;
 
 @import 'components/atoms';
+@import 'components/molecules';
+@import 'components/organisms';
+@import 'components/pages';
 .header-banner{
 	text-align: center;
 }
