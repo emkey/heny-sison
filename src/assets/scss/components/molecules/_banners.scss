@@ -1,0 +1,38 @@
+.main-banner{
+	color: $white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+	background-position: center center;
+	align-items: center;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    height: 240px;
+    @extend .margin-large-bottom;
+	@include breakpoint(medium) {
+		height: 400px;
+	}
+
+}
+.class-banner{
+	color: $white;
+	height: 200px;
+	@include breakpoint(medium) { 
+		height: 300px;
+	}
+	@extend .padding-large-top;
+	@extend .padding-medium-left;
+	@extend .padding-medium-right;
+	@extend .padding-medium-bottom;
+	@extend .margin-medium-bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	background-position: center center;
+	align-items: center;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+}

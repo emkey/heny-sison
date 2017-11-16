@@ -11,3 +11,15 @@
 	background-color: $black;
 	box-shadow: 0 7px 0 $black, 0 14px 0 $black;
 }
+.top-bar{
+	background-color: transparent;
+	.large-horizontal.menu{
+		justify-content: center;
+	}
+	ul{
+		background-color: transparent;
+	}
+	.menu-text{
+	padding: 0px;	
+	}
+}

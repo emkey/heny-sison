@@ -1,0 +1,6 @@
+.body-container{
+	h2{
+		@extend .grid-container;
+		@extend .margin-large-bottom;
+	}
+}

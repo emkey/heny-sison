@@ -16,6 +16,12 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 100;
 	letter-spacing: 2px;
 	line-height: 1.2em;
+	color: $grey5;
+}
+.main-banner{
+	h1,h2,h3,h4,h5,h6{
+		color: $white;
+	}
 }
 
 h6{
@@ -48,6 +54,10 @@ blockquote{
 
 p{
 	margin-bottom: 2em;
+}
+.text-large{
+	font-size: ms(1.2);
+	color: lighten($black, 20);
 }
 
 /* links */

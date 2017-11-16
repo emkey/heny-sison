@@ -10,27 +10,40 @@
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
   </head>
   <body>
-<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-  <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+<div class="title-bar" data-responsive-toggle="main-navigation" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="main-navigation"></button>
   <div class="title-bar-title">Menu</div>
 </div>
+<div class="top-bar" id="main-navigation">
+  	<div class="top-bar-left">
+    	<ul class="dropdown vertical large-horizontal menu" data-dropdown-menu>
+			<li class="menu-text"><a href="about.html">About</a></li>
+			<li><a href="classes.html">Classes</a></li>
+			<li><a href="#">Gift Certificates</a></li>
+			<li><a href="#">Private Event</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+</div>	
 
-<div class="top-bar" id="example-menu">
-  <div class="top-bar-left">
-    <ul class="dropdown vertical large-horizontal menu" data-dropdown-menu>
-      <li class="menu-text">About</li>
-      <li><a href="#">Classes</a></li>
-      <li><a href="#">Gift Certificates</a></li>
-      <li><a href="#">Private Event</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </div>
-</div>
 <h1 class="header-banner"><img src="assets/img/header-logo.png" /></h1>
 
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
-
+<!--  
+<div class="body-container">
+	<h2 class="padding-top-large">Subscribe to us</h2>
+	<div class="small-12 large-12 cell">
+		<div class="grid-container grid-padding-x">
+			<form class="small-12 cell email-subscription padding-large">
+			    <input type="text" placeholder="Your email address" aria-describedby="exampleHelpText">
+			  	<a class="expanded button large" href="#0">Subscribe</a>
+			</form>	
+		</div>
+	</div>
+</div>
+-->
+</div>
     <script src="{{root}}assets/js/app.js"></script>
   </body>
 </html>
